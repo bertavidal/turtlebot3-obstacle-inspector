@@ -13,8 +13,6 @@ Behavior is organized as a finite-state process:
 - Avoidance: rotate to bypass walls and known obstacles.
 - Inspection: for new obstacles, perform an in-place rotational scan and then resume exploration.
 
-Overall, the project demonstrates practical integration of LiDAR and odometry for real-time navigation, obstacle classification, lightweight memory of inspected objects, and autonomous inspection behavior.
-
 ### Repository Structure
 - `CMakeLists.txt`: Catkin/ROS build configuration and package target definition.
 - `projecte_final_b.cpp`: Main C++ ROS node containing callbacks, state machine, navigation logic, obstacle memory, and inspection routine.
@@ -35,8 +33,6 @@ El comportament està organitzat com un procés de màquina d’estats:
 - Classificació: decidir paret vs obstacle.
 - Evasió: girar per evitar parets i obstacles coneguts.
 - Inspecció: per a obstacles nous, fer un escaneig rotacional in situ i reprendre l’exploració.
-
-En conjunt, el projecte mostra una integració pràctica de LiDAR i odometria per a navegació en temps real, classificació d’obstacles, memòria lleugera d’objectes inspeccionats i comportament d’inspecció autònom.
 
 ### Estructura del repositori 
 - `CMakeLists.txt`: Configuració de compilació Catkin/ROS i definició del target del paquet.
