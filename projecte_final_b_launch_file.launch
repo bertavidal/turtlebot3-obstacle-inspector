@@ -1,0 +1,5 @@
+<launch>
+<node pkg="projecte_final_b" type="projecte_final_b" name="node_berta"
+output="screen">
+</node>
+</launch>
