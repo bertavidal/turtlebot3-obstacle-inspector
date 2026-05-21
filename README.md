@@ -1,8 +1,6 @@
 # turtlebot3-obstacle-inspector
 
-## English
-
-### Complete Project Description
+### Project Description
 This project implements autonomous obstacle-aware exploration and inspection for a TurtleBot3 robot using ROS.  
 The robot moves forward while monitoring its frontal area with LiDAR. When an object is detected, it pauses and classifies the detection as either a wall-like structure or a discrete obstacle based on local scan density around the detected angle.
 
@@ -17,16 +15,15 @@ Behavior is organized as a finite-state process:
 
 Overall, the project demonstrates practical integration of LiDAR and odometry for real-time navigation, obstacle classification, lightweight memory of inspected objects, and autonomous inspection behavior.
 
-### Repository Structure (with file descriptions)
+### Repository Structure
 - `CMakeLists.txt`: Catkin/ROS build configuration and package target definition.
 - `projecte_final_b.cpp`: Main C++ ROS node containing callbacks, state machine, navigation logic, obstacle memory, and inspection routine.
 - `projecte_final_b_launch_file.launch`: ROS launch file to start the obstacle inspector node.
 - `Informe Pràctica Final.pdf`: Final project report document.
-- `.git/`: Git metadata and version-control history.
 
-## Català
+---
 
-### Descripció completa del projecte
+### Descripció del projecte
 Aquest projecte implementa exploració i inspecció autònoma amb consciència d’obstacles per a un robot TurtleBot3 utilitzant ROS.  
 El robot avança mentre supervisa la zona frontal amb LiDAR. Quan detecta un objecte, s’atura i el classifica com a paret o com a obstacle discret segons la densitat local de mesures al voltant de l’angle detectat.
 
@@ -41,9 +38,8 @@ El comportament està organitzat com un procés de màquina d’estats:
 
 En conjunt, el projecte mostra una integració pràctica de LiDAR i odometria per a navegació en temps real, classificació d’obstacles, memòria lleugera d’objectes inspeccionats i comportament d’inspecció autònom.
 
-### Estructura del repositori (amb descripció de fitxers)
+### Estructura del repositori 
 - `CMakeLists.txt`: Configuració de compilació Catkin/ROS i definició del target del paquet.
 - `projecte_final_b.cpp`: Node principal ROS en C++ amb callbacks, màquina d’estats, lògica de navegació, memòria d’obstacles i rutina d’inspecció.
 - `projecte_final_b_launch_file.launch`: Fitxer de llançament ROS per iniciar el node inspector.
 - `Informe Pràctica Final.pdf`: Document de l’informe final del projecte.
-- `.git/`: Metadades de Git i historial de control de versions.
